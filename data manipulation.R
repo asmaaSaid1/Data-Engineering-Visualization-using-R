@@ -1,7 +1,4 @@
-# Day 1 Data Engineering
- 
-# Day 2 Data Engineering
-# Data Input/Output ----
+
 # For Importing data file you may use Import Dataset from File Menue
 library(xlsx) # Does not work because of a Java Runtime
 # Alternative to xlsx library rio
@@ -12,7 +9,7 @@ export(mtcars, "mtcars1.csv")
 export(mtcars, "mtcars1.xlsx")
 # export to sheets of an Excel workbook
 export(list(mtcars = mtcars, iris = iris), "multi.xlsx")
-#______________________________________________________________
+
 
 #________________________________________________
 # Creating Matrices----
@@ -55,8 +52,7 @@ studmatrix=cbind(studmatrix,'Percent'=(studmatrix[,4]/300))
 
 #
 # Save the result in an excel file
-#
-#__________________________________________________________
+
 # factor ----
 temps <- c('cold','med','cold','med','hot','hot','cold')
 days1 <- c('SA','SU','MO','TU','WE','TH','FR')
